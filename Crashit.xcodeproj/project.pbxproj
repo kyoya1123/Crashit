@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		3D1DB9DB230FB942007FE862 /* WallNodeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DB9D2230FB942007FE862 /* WallNodeSet.swift */; };
 		3D1DB9DC230FB942007FE862 /* NodeBitMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1DB9D3230FB942007FE862 /* NodeBitMask.swift */; };
 		3D2431E92313DC480029ED61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D2431E82313DC480029ED61 /* Assets.xcassets */; };
+		3D3AACF12AD0561100E01F79 /* ColorThiefSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3D3AACF02AD0561100E01F79 /* ColorThiefSwift */; };
 		3D6C85D8232E208500A91226 /* HelpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D6C85D7232E208500A91226 /* HelpView.xib */; };
 		3D76E1B3231E4477008B1585 /* BallSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D76E1B2231E4477008B1585 /* BallSelectView.xib */; };
 		3D76E1B5231E4482008B1585 /* BallSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D76E1B4231E4482008B1585 /* BallSelectView.swift */; };
@@ -34,6 +35,9 @@
 		3D95191A230E443400426CB4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D951919230E443400426CB4 /* GameViewController.swift */; };
 		3D95191D230E443400426CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D95191B230E443400426CB4 /* Main.storyboard */; };
 		3D951922230E443500426CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D951920230E443500426CB4 /* LaunchScreen.storyboard */; };
+		3DA28A462AD05D9A001C6972 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3DA28A452AD05D9A001C6972 /* FirebaseAnalytics */; };
+		3DA28A482AD05D9A001C6972 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3DA28A472AD05D9A001C6972 /* FirebaseDatabase */; };
+		3DA28A4A2AD05D9A001C6972 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3DA28A492AD05D9A001C6972 /* FirebaseDatabaseSwift */; };
 		3DA50CB323183EF900625852 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3DA50CB223183EF900625852 /* GoogleService-Info.plist */; };
 		3DA50CB52318551B00625852 /* UserDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA50CB42318551B00625852 /* UserDataSet.swift */; };
 		3DA50CBA2318C2B200625852 /* RankingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA50CB82318C2B200625852 /* RankingTableViewCell.swift */; };
@@ -49,11 +53,9 @@
 		3DCC4C382316AFEA0009761A /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCC4C372316AFEA0009761A /* HelpView.swift */; };
 		3DEBE2B3231925EE00269D1E /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEBE2B2231925EE00269D1E /* UIViewExtension.swift */; };
 		3DFD2AF72330C565002728F2 /* ColorThiefExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFD2AF62330C565002728F2 /* ColorThiefExtension.swift */; };
-		769FEFACA6A33E7CF73A32F0 /* Pods_Crashit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 313616DF8CC66913139E2232 /* Pods_Crashit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		251608CE1D796A6BE9D5091B /* Pods-Breakdown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakdown.debug.xcconfig"; path = "Target Support Files/Pods-Breakdown/Pods-Breakdown.debug.xcconfig"; sourceTree = "<group>"; };
 		313616DF8CC66913139E2232 /* Pods_Crashit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crashit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0D72702352BD0000E8C886 /* UltimateType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltimateType.swift; sourceTree = "<group>"; };
 		3D1DB9CB230FB942007FE862 /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
@@ -99,9 +101,6 @@
 		3DCC4C372316AFEA0009761A /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		3DEBE2B2231925EE00269D1E /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		3DFD2AF62330C565002728F2 /* ColorThiefExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorThiefExtension.swift; sourceTree = "<group>"; };
-		54C928DF82C131A51D234414 /* Pods-Breakdown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Breakdown.release.xcconfig"; path = "Target Support Files/Pods-Breakdown/Pods-Breakdown.release.xcconfig"; sourceTree = "<group>"; };
-		B24A4D728C6466DD9451E93D /* Pods-Crashit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crashit.release.xcconfig"; path = "Target Support Files/Pods-Crashit/Pods-Crashit.release.xcconfig"; sourceTree = "<group>"; };
-		C404ECC9F7C463BD4F311EFF /* Pods-Crashit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crashit.debug.xcconfig"; path = "Target Support Files/Pods-Crashit/Pods-Crashit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +108,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				769FEFACA6A33E7CF73A32F0 /* Pods_Crashit.framework in Frameworks */,
+				3DA28A4A2AD05D9A001C6972 /* FirebaseDatabaseSwift in Frameworks */,
+				3D3AACF12AD0561100E01F79 /* ColorThiefSwift in Frameworks */,
+				3DA28A482AD05D9A001C6972 /* FirebaseDatabase in Frameworks */,
+				3DA28A462AD05D9A001C6972 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,17 +124,6 @@
 				313616DF8CC66913139E2232 /* Pods_Crashit.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1B16D0886EEA6A577287D10E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				251608CE1D796A6BE9D5091B /* Pods-Breakdown.debug.xcconfig */,
-				54C928DF82C131A51D234414 /* Pods-Breakdown.release.xcconfig */,
-				C404ECC9F7C463BD4F311EFF /* Pods-Crashit.debug.xcconfig */,
-				B24A4D728C6466DD9451E93D /* Pods-Crashit.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		3D2431E02313DB270029ED61 /* ViewController */ = {
@@ -236,7 +227,6 @@
 			children = (
 				3D951914230E443400426CB4 /* Crashit */,
 				3D951913230E443400426CB4 /* Products */,
-				1B16D0886EEA6A577287D10E /* Pods */,
 				0AA8DCE3EFDC63B56818F3C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -282,17 +272,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D951926230E443500426CB4 /* Build configuration list for PBXNativeTarget "Crashit" */;
 			buildPhases = (
-				EA512A1A005D7AA949D7D0AB /* [CP] Check Pods Manifest.lock */,
 				3D95190E230E443400426CB4 /* Sources */,
 				3D95190F230E443400426CB4 /* Frameworks */,
 				3D951910230E443400426CB4 /* Resources */,
-				3F9301E4F91614B21F9D3EE1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Crashit;
+			packageProductDependencies = (
+				3D3AACF02AD0561100E01F79 /* ColorThiefSwift */,
+				3DA28A452AD05D9A001C6972 /* FirebaseAnalytics */,
+				3DA28A472AD05D9A001C6972 /* FirebaseDatabase */,
+				3DA28A492AD05D9A001C6972 /* FirebaseDatabaseSwift */,
+			);
 			productName = "AiR Hockey";
 			productReference = 3D951912230E443400426CB4 /* Crashit.app */;
 			productType = "com.apple.product-type.application";
@@ -303,8 +297,9 @@
 		3D95190A230E443400426CB4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1510;
 				ORGANIZATIONNAME = "山口響也";
 				TargetAttributes = {
 					3D951911230E443400426CB4 = {
@@ -321,6 +316,10 @@
 				Base,
 			);
 			mainGroup = 3D951909230E443400426CB4;
+			packageReferences = (
+				3D3AACEF2AD0561100E01F79 /* XCRemoteSwiftPackageReference "ColorThiefSwift" */,
+				3DA28A442AD05D9A001C6972 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 3D951913230E443400426CB4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -355,48 +354,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		3F9301E4F91614B21F9D3EE1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Crashit/Pods-Crashit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Crashit/Pods-Crashit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Crashit/Pods-Crashit-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EA512A1A005D7AA949D7D0AB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Crashit-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D95190E230E443400426CB4 /* Sources */ = {
@@ -480,6 +437,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -490,6 +448,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -540,6 +499,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -550,6 +510,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -570,7 +531,6 @@
 		};
 		3D951927230E443500426CB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C404ECC9F7C463BD4F311EFF /* Pods-Crashit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -578,7 +538,7 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 3X7LEN654Y;
 				INFOPLIST_FILE = "$(SRCROOT)/Crashit/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -594,7 +554,6 @@
 		};
 		3D951928230E443500426CB4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B24A4D728C6466DD9451E93D /* Pods-Crashit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -602,7 +561,7 @@
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 3X7LEN654Y;
 				INFOPLIST_FILE = "$(SRCROOT)/Crashit/Resources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -638,6 +597,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D3AACEF2AD0561100E01F79 /* XCRemoteSwiftPackageReference "ColorThiefSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yamoridon/ColorThiefSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+		3DA28A442AD05D9A001C6972 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.16.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D3AACF02AD0561100E01F79 /* ColorThiefSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D3AACEF2AD0561100E01F79 /* XCRemoteSwiftPackageReference "ColorThiefSwift" */;
+			productName = ColorThiefSwift;
+		};
+		3DA28A452AD05D9A001C6972 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DA28A442AD05D9A001C6972 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3DA28A472AD05D9A001C6972 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DA28A442AD05D9A001C6972 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		3DA28A492AD05D9A001C6972 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DA28A442AD05D9A001C6972 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3D95190A230E443400426CB4 /* Project object */;
 }

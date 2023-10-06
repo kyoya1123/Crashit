@@ -1,9 +1,9 @@
 import UIKit
+import FirebaseDatabase
 import SceneKit
 import ARKit
 import AVFoundation
 import AudioToolbox
-import Firebase
 import ColorThiefSwift
 
 class GameViewController: UIViewController {
